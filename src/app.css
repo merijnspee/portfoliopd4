@@ -1,3 +1,10 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+html,
+body,
+#svelte {
+	height: 94%;
+	margin: 0;
+}
